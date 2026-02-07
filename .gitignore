@@ -1,0 +1,45 @@
+# --- LOGS Y BASURA DE NPM ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- DEPENDENCIAS (Nunca subir esto, pesa demasiado) ---
+node_modules
+.pnpm-store
+
+# --- BUILD (Archivos generados por Vite, no son código fuente) ---
+dist
+dist-ssr
+coverage
+*.local
+
+# --- SISTEMA OPERATIVO (Archivos basura de Windows/Mac) ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- IDEs Y EDITORES (Configuraciones personales tuyas) ---
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- 🔒 SEGURIDAD (CRÍTICO: AQUÍ VAN TUS LLAVES) ---
+# Ignorar todos los archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Excepción: Si quieres subir un ejemplo de las variables (sin valores reales)
+! .env.example
