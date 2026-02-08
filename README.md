@@ -2,7 +2,7 @@
 
 > **Submission for Algolia Agent Studio Challenge: Consumer-Facing Non-Conversational Experiences**
 
-![Silent Triage Demo](./public/silent-triage-p0-alert-example.png)s
+![Silent Triage Demo](./public/silent-triage-p0-alert-example.png)
 
 ## 🚨 The Problem
 When a **P0 Incident** strikes at 3:00 AM, SREs and DevOps engineers don't have time to chat with a bot. 
