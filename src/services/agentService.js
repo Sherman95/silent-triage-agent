@@ -1,8 +1,8 @@
 // src/services/agentService.js
 
-const APP_ID = "ZICVFFRV4E";
-const API_KEY = "6f60849e78e18c6029eb231f32439f1f";
-const AGENT_URL = "https://zicvffrv4e.algolia.net/agent-studio/1/agents/d1f031c2-ed9d-45cd-8e96-e1e93937e0d6/completions?compatibilityMode=ai-sdk-4";
+const APP_ID = import.meta.env.VITE_ALGOLIA_APP_ID;
+const API_KEY = import.meta.env.VITE_ALGOLIA_API_KEY;
+const AGENT_URL = import.meta.env.VITE_AGENT_URL;
 
 export const analyzeIncident = async (incidentText) => {
     try {
